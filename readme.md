@@ -25,7 +25,8 @@ This repository contains the Android and iOS source code for projets used to dem
 Using this service the assets files in `\Android\res` are converted into asset catalog files for Xcode in `\AssetDemo\Assets.xcassets` folder.
 
 * Image assets from mdpi, hdpi, xhdpi and xxhdpi are mapped to 1x, 2x and 3x images
-* Vector image xml are converted into `.pdf` files for use in Storyboard. 
+* For .9.png files, slicing information is added for asset in catalog
+* Vector image xml are converted into `.pdf` files for use in Storyboard 
 * Vector image xml are also transformed into Swift code and for each vector file a static method is added in `VectorStore.swift`
 
 ## Files transformed
@@ -34,13 +35,13 @@ This sample project demonstrates conversion of following files -
 * .9.png
 * color.xml
 * MipMap images
-* <Vector> xml
-* <shape> xml
+* Vector xml
+* shape xml
 
 
 ## Assets conversion - Screen shots
 
-Screen shot of Android and iOS devices - 
+Screen shot of Android and iOS devices showing usage of various assets - 
 ![Screenshot](/Visuals/Asset-Screenshot-Portrait-1.png?raw=true)
 
 -----
@@ -56,7 +57,7 @@ Xcode Storyboard editor
 Android Studio image assets
 ![AndroidEditor](/Visuals/2-AndroidStudio-ImageAssets.png?raw=true)
 
-Xcode Asset Catalog
+Xcode Asset Catalog showing mapping of 1x, 2x and 3x assets
 ![AssetCatalog](/Visuals/2-Xcode-AssetCatalog.png?raw=true)
 
 -----
@@ -64,22 +65,22 @@ Xcode Asset Catalog
 Android Studio 9-PNG image assets
 ![Android9PNG](/Visuals/3-AndroidStudio-9png_Editor.png?raw=true)
 
-Xcode Asset Catalog Slicing
+Xcode Asset Catalog with slicing information extracted from .9.png file
 ![AssetSlicing](/Visuals/3-Xcode-AssetSlicing.png?raw=true)
 
 
 ## Vector conversion - Screen shots
 
-Screen shot of Android and iOS devices - 
-![Screenshot](/Visuals/Vector-Screenshot-Portrait-1?raw=true)
+Screen shot of Android and iOS devices showing usage of various vector xml - 
+![Vector-Screenshot-Portrait-1](/Visuals/Vector-Screenshot-Portrait-1.png?raw=true)
 
-![Screenshot](/Visuals/Vector-Screenshot-Portrait-2.png?raw=true)
+![Vector-Screenshot-Portrait-2](/Visuals/Vector-Screenshot-Portrait-2.png?raw=true)
 
-FingerPrint vector xml from [material.io](https://material.io/resources/icons/?icon=fingerprint&style=baseline)
-![Screenshot](/Visuals/Vector-Screenshot-Portrait-3.png?raw=true)
+UI with FingerPrint vector xml from [material.io](https://material.io/resources/icons/?icon=fingerprint&style=baseline)
+![Vector-Screenshot-Portrait-3](/Visuals/Vector-Screenshot-Portrait-3.png?raw=true)
 
-<shape> xml file comparison
-![Screenshot](/Visuals/Vector-Screenshot-Portrait-4.png?raw=true)
+Shape xml file comparison
+![Vector-Screenshot-Portrait-4](/Visuals/Vector-Screenshot-Portrait-4.png?raw=true)
 
 -----
 
