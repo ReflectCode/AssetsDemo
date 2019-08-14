@@ -41,7 +41,7 @@ This sample project demonstrates conversion of following files -
 ## Assets conversion - Screen shots
 
 Screen shot of Android and iOS devices - 
-![Screenshot](/Visuals/Screenshot-Portrait-1.png?raw=true)
+![Screenshot](/Visuals/Asset-Screenshot-Portrait-1.png?raw=true)
 
 -----
 
@@ -71,16 +71,15 @@ Xcode Asset Catalog Slicing
 ## Vector conversion - Screen shots
 
 Screen shot of Android and iOS devices - 
-![Screenshot](/Visuals/Screenshot-Portrait-1.png?raw=true)
+![Screenshot](/Visuals/Vector-Screenshot-Portrait-1?raw=true)
 
-![Screenshot](/Visuals/Screenshot-Portrait-2.png?raw=true)
+![Screenshot](/Visuals/Vector-Screenshot-Portrait-2.png?raw=true)
 
 FingerPrint vector xml from [material.io](https://material.io/resources/icons/?icon=fingerprint&style=baseline)
-
-![Screenshot](/Visuals/Screenshot-Portrait-3.png?raw=true)
+![Screenshot](/Visuals/Vector-Screenshot-Portrait-3.png?raw=true)
 
 <shape> xml file comparison
-![Screenshot](/Visuals/Screenshot-Portrait-4.png?raw=true)
+![Screenshot](/Visuals/Vector-Screenshot-Portrait-4.png?raw=true)
 
 -----
 
