@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main"
+    android:orientation="vertical"
+    android:id="@+id/rootView">
+
+    <TextView
+        android:id="@+id/tvTitle0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vector and Shape Sample!"
+        android:textSize="25sp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgView"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:background="@color/colorBlue"/>
+
+        <Button
+            android:id="@+id/btnRefresh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ref"
+            android:layout_margin="8dp"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTitle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vector Sample!"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/iv1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/ic_launcher_foreground"
+            android:onClick="show_ic_launcher_foreground"
+            />
+
+        <Button
+            android:id="@+id/iv2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/heart_vector"
+            android:onClick="show_heart_vector" />
+
+        <Button
+            android:id="@+id/iv3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/ic_launcher_background"
+            android:onClick="show_ic_launcher_background" />
+
+        <Button
+            android:id="@+id/iv4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/face"
+            android:onClick="show_face"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/iv21"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/ic_3d_rotation_48px"
+            android:onClick="show_ic_3d_rotation"/>
+
+        <Button
+            android:id="@+id/iv22"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/ic_fingerprint_48px"
+            android:onClick="show_ic_fingerprint"/>
+
+        <Button
+            android:id="@+id/iv23"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/ic_language_48px"
+            android:onClick="show_ic_language"/>
+
+        <Button
+            android:id="@+id/iv24"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/ic_baseline_error_outline_24px"
+            android:onClick="show_ic_baseline_error"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTitle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shape Sample!"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ivSh1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_rectangle_solid"
+            android:onClick="show_shape_rectangle_solid"/>
+
+        <Button
+            android:id="@+id/ivSh2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_rectangle_gradient"
+            android:onClick="show_shape_rectangle_gradient"/>
+
+        <Button
+            android:id="@+id/ivSh3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_oval"
+            android:onClick="show_shape_oval"/>
+
+        <Button
+            android:id="@+id/ivSh9"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/shape_selector_button"
+            android:onClick="show_shape_selector"/>
+
+    </LinearLayout>
+
+</LinearLayout>
