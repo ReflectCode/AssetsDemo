@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AssetTest-NavControl">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="DNV-xg-evK">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="AssetTest-NavControl" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ulm-4h-Ru3">
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" name="colorPrimary"/>
+                        <textAttributes key="titleTextAttributes"/>
+                        <textAttributes key="largeTitleTextAttributes"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="AssetTest-ToolBar">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="MainActivity-VC" kind="relationship" relationship="rootViewController" id="hC6-UQ-eHy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ccE-g8-4ju" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1271" y="576"/>
+        </scene>
+        <!--MainActivity-VC-->
+        <scene sceneID="MainActivity-VC-Scene">
+            <objects>
+                <viewController storyboardIdentifier="MainActivity-VC" id="MainActivity-VC" userLabel="MainActivity-VC" customClass="MainActivity" customModule="AssetDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="Root-View" id="MainActivity-View" userLabel="MainActivity-View">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="1001" contentMode="scaleToFill" verticalHuggingPriority="350" fixedFrame="YES" text="Asset Demo" lineBreakMode="middleTruncation" numberOfLines="999" baselineAdjustment="alignBaselines" translatesAutoresizingMaskIntoConstraints="NO" id="TUi-zG-SRS" userLabel="Title" customClass="RC_UILabel" customModule="AssetDemo" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="64" width="414" height="19"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.53333333329999999" colorSpace="calibratedRGB"/>
+                            </label>
+                            <view clipsSubviews="YES" tag="101600222" contentMode="scaleToFill" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" fixedFrame="YES" restorationIdentifier="Footer-View" translatesAutoresizingMaskIntoConstraints="NO" id="Footer-View-ID" userLabel="Footer-View">
+                                <rect key="frame" x="0.0" y="736" width="414" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" tag="1002" contentMode="scaleToFill" verticalHuggingPriority="350" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HaM-Ly-llA" userLabel="button1">
+                                <rect key="frame" x="7" y="84" width="396" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="13" maxX="0.0" maxY="13"/>
+                                <state key="normal" title="Button Selector Style-1" backgroundImage="btn_selector_normal_white">
+                                    <color key="titleColor" name="colorAccent"/>
+                                </state>
+                                <state key="disabled" title="Button Selector Style-1" backgroundImage="btn_selector_disabled_gray">
+                                    <color key="titleColor" name="colorAccent"/>
+                                </state>
+                                <state key="selected" title="Button Selector Style-1" backgroundImage="btn_selector_pressed_pink">
+                                    <color key="titleColor" name="colorAccent"/>
+                                </state>
+                                <state key="highlighted" title="Button Selector Style-1" backgroundImage="btn_selector_hovered_green">
+                                    <color key="titleColor" name="colorAccent"/>
+                                </state>
+                                <state key="focused" title="Button Selector Style-1" backgroundImage="btn_selector_focused_blue">
+                                    <color key="titleColor" name="colorAccent"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="titleLabel.layer.shadowUIColor">
+                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.layer.shadowOpacity">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="titleLabel.layer.shadowOffset">
+                                        <point key="value" x="1" y="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.layer.shadowRadius">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" tag="1003" contentMode="scaleToFill" horizontalHuggingPriority="350" verticalHuggingPriority="350" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cd1-Zd-tfG" userLabel="button2">
+                                <rect key="frame" x="12" y="146" width="204" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="13" maxX="0.0" maxY="13"/>
+                                <state key="normal" title="Button Selector Style-2" backgroundImage="btn_selector_normal_white">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="disabled" title="Button Selector Style-2" backgroundImage="btn_selector_disabled_gray">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" title="Button Selector Style-2" backgroundImage="btn_selector_pressed_pink">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="highlighted" title="Button Selector Style-2" backgroundImage="btn_selector_hovered_green">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="focused" title="Button Selector Style-2" backgroundImage="btn_selector_focused_blue">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="titleLabel.layer.shadowUIColor">
+                                        <color key="value" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.layer.shadowOpacity">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="titleLabel.layer.shadowOffset">
+                                        <point key="value" x="4" y="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.layer.shadowRadius">
+                                        <integer key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" tag="1004" contentMode="scaleToFill" horizontalHuggingPriority="350" verticalHuggingPriority="350" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wnz-Gc-6fU" userLabel="button3">
+                                <rect key="frame" x="12" y="196" width="204" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="13" maxX="0.0" maxY="13"/>
+                                <state key="normal" title="Button 9.png NoPadding" backgroundImage="btn_selector_focused_blue">
+                                    <color key="titleColor" name="colorWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="1007" contentMode="scaleToFill" horizontalHuggingPriority="350" verticalHuggingPriority="350" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EwF-4Y-Yw7" userLabel="button4">
+                                <rect key="frame" x="17" y="303" width="125" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="13" maxX="0.0" maxY="13"/>
+                                <state key="normal" title="9.png" backgroundImage="btn_selector_hovered_green">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="titleLabel.layer.shadowUIColor">
+                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.layer.shadowOpacity">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="titleLabel.layer.shadowOffset">
+                                        <point key="value" x="1" y="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.layer.shadowRadius">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" tag="1008" contentMode="scaleToFill" horizontalHuggingPriority="350" verticalHuggingPriority="350" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rqs-A3-FD8" userLabel="dropdown">
+                                <rect key="frame" x="150" y="305" width="88" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="13" maxX="0.0" maxY="13"/>
+                                <state key="normal" title="DN" backgroundImage="btn_dropdown_normal">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="titleLabel.layer.shadowUIColor">
+                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.layer.shadowOpacity">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="titleLabel.layer.shadowOffset">
+                                        <point key="value" x="1" y="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.layer.shadowRadius">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" tag="1009" contentMode="scaleToFill" horizontalHuggingPriority="350" verticalHuggingPriority="350" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZLr-Cx-XUZ" userLabel="dropdown2">
+                                <rect key="frame" x="240" y="305" width="163" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="13" maxX="0.0" maxY="13"/>
+                                <state key="normal" title="Drop Down" backgroundImage="btn_dropdown_pressed">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="titleLabel.layer.shadowUIColor">
+                                        <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.layer.shadowOpacity">
+                                        <integer key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="point" keyPath="titleLabel.layer.shadowOffset">
+                                        <point key="value" x="1" y="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="titleLabel.layer.shadowRadius">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" tag="1011" contentMode="scaleToFill" horizontalHuggingPriority="350" verticalHuggingPriority="350" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qfx-u5-Mxk" userLabel="btnHome">
+                                <rect key="frame" x="20" y="362" width="119" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="13" maxX="0.0" maxY="13"/>
+                                <state key="normal" title=" Home... " image="ic_home_black_24dp" backgroundImage="btn_default_small_normal">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="1012" contentMode="scaleToFill" horizontalHuggingPriority="350" verticalHuggingPriority="350" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E5L-sB-htk" userLabel="btnSettings">
+                                <rect key="frame" x="157" y="359" width="115" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="13" maxX="0.0" maxY="13"/>
+                                <inset key="titleEdgeInsets" minX="-65" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="65" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Setting" image="ic_settings_black_24dp" backgroundImage="btn_default_small_pressed">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="1014" contentMode="scaleToFill" horizontalHuggingPriority="350" verticalHuggingPriority="350" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bf3-Fm-3bC" userLabel="btnA2">
+                                <rect key="frame" x="18" y="412" width="88" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="13" maxX="0.0" maxY="13"/>
+                                <state key="normal" title="AA" backgroundImage="btn_default_normal_disable_focused">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="1015" contentMode="scaleToFill" horizontalHuggingPriority="350" verticalHuggingPriority="350" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mnw-lc-1tq" userLabel="btnA4">
+                                <rect key="frame" x="128" y="412" width="88" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="13" maxX="0.0" maxY="13"/>
+                                <state key="normal" title="AAAA" backgroundImage="btn_default_normal_disable_focused">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="1016" contentMode="scaleToFill" horizontalHuggingPriority="350" verticalHuggingPriority="350" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nbz-Fw-Edm" userLabel="BtnA6">
+                                <rect key="frame" x="224" y="412" width="88" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="13" maxX="0.0" maxY="13"/>
+                                <state key="normal" title="AAAAAA" backgroundImage="btn_default_normal_disable_focused">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="1017" contentMode="scaleToFill" horizontalHuggingPriority="350" verticalHuggingPriority="350" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ka0-ly-pix" userLabel="btnA8">
+                                <rect key="frame" x="314" y="412" width="89" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="13" maxX="0.0" maxY="13"/>
+                                <state key="normal" title="AAAAAAAA" backgroundImage="btn_default_normal_disable_focused">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="1019" contentMode="scaleToFill" horizontalHuggingPriority="350" verticalHuggingPriority="350" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5U4-hn-YXs" userLabel="btnB1">
+                                <rect key="frame" x="37" y="499" width="88" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="13" maxX="0.0" maxY="13"/>
+                                <state key="normal" title="BB" backgroundImage="btn_default_small_normal_disable_focused">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="1020" contentMode="scaleToFill" horizontalHuggingPriority="350" verticalHuggingPriority="350" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="63B-NJ-zTC" userLabel="btnB2">
+                                <rect key="frame" x="138" y="480" width="88" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="13" maxX="0.0" maxY="13"/>
+                                <state key="normal" title="BB" backgroundImage="btn_default_small_normal_disable_focused">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="1021" contentMode="scaleToFill" horizontalHuggingPriority="350" verticalHuggingPriority="350" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hJ3-HR-fVC" userLabel="btnB3">
+                                <rect key="frame" x="240" y="468" width="107" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="13" maxX="0.0" maxY="13"/>
+                                <state key="normal" title="BB" backgroundImage="btn_default_small_normal_disable_focused">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="1023" contentMode="scaleToFill" horizontalHuggingPriority="350" verticalHuggingPriority="350" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nnh-5y-g4m" userLabel="btnB11">
+                                <rect key="frame" x="25" y="592" width="141" height="116"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="13" maxX="0.0" maxY="13"/>
+                                <state key="normal" title="BB" backgroundImage="btn_dropdown_disabled_focused">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="1024" contentMode="scaleToFill" horizontalHuggingPriority="350" verticalHuggingPriority="350" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y5S-HW-DUh" userLabel="btnB22">
+                                <rect key="frame" x="174" y="604" width="116.99999999999997" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="55"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="13" maxX="0.0" maxY="13"/>
+                                <state key="normal" title="BB" backgroundImage="btn_dropdown_disabled_focused">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="1025" contentMode="scaleToFill" horizontalHuggingPriority="350" verticalHuggingPriority="350" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZt-jS-AEa" userLabel="btnB33">
+                                <rect key="frame" x="299" y="626" width="88" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="13" maxX="0.0" maxY="13"/>
+                                <state key="normal" title="BB" backgroundImage="btn_dropdown_disabled_focused">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" tag="1005" contentMode="scaleToFill" horizontalHuggingPriority="350" verticalHuggingPriority="350" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LWo-ea-vRe" userLabel="button31">
+                                <rect key="frame" x="12" y="247" width="263" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="20" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="Button 9.png + Padding" backgroundImage="btn_selector_focused_blue">
+                                    <color key="titleColor" name="colorWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <viewLayoutGuide key="safeArea" id="MainActivity-View-safeArea"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Asset Demo" id="MainActivity-VC-Nav-ID"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-416" y="576"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="btn_default_normal_disable_focused" width="18" height="36"/>
+        <image name="btn_default_small_normal" width="15" height="27"/>
+        <image name="btn_default_small_normal_disable_focused" width="30" height="54"/>
+        <image name="btn_default_small_pressed" width="15" height="27"/>
+        <image name="btn_dropdown_disabled_focused" width="60" height="36"/>
+        <image name="btn_dropdown_normal" width="60" height="36"/>
+        <image name="btn_dropdown_pressed" width="60" height="36"/>
+        <image name="btn_selector_disabled_gray" width="125" height="40"/>
+        <image name="btn_selector_focused_blue" width="125" height="40"/>
+        <image name="btn_selector_hovered_green" width="125" height="40"/>
+        <image name="btn_selector_normal_white" width="125" height="40"/>
+        <image name="btn_selector_pressed_pink" width="125" height="40"/>
+        <image name="ic_home_black_24dp" width="24" height="24"/>
+        <image name="ic_settings_black_24dp" width="24" height="24"/>
+        <namedColor name="colorAccent">
+            <color red="0.84705882352941175" green="0.10588235294117647" blue="0.37647058823529411" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorPrimary">
+            <color red="0.0" green="0.52156862745098043" blue="0.46666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorWhite">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
