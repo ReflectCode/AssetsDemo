@@ -24,6 +24,9 @@ This repository contains the Android and iOS source code for projets used to dem
 
 Using this service the assets files in `\Android\res` are converted into asset catalog files for Xcode in `\AssetDemo\Assets.xcassets` folder.
 
+* Image assets from mdpi, hdpi, xhdpi and xxhdpi are mapped to 1x, 2x and 3x images
+* Vector image xml are converted into `.pdf` files for use in Storyboard. 
+* Vector image xml are also transformed into Swift code and for each vector file a static method is added in `VectorStore.swift`
 
 ## Files transformed
 This sample project demonstrates conversion of following files - 
@@ -31,12 +34,16 @@ This sample project demonstrates conversion of following files -
 * .9.png
 * color.xml
 * MipMap images
+* <Vector> xml
+* <shape> xml
 
 
-## Screen shots
+## Assets conversion - Screen shots
 
 Screen shot of Android and iOS devices - 
 ![Screenshot](/Visuals/Screenshot-Portrait-1.png?raw=true)
+
+-----
 
 Android Studio layout editor
 ![AndroidEditor](/Visuals/1-AndroidStudio-LayoutEditor.png?raw=true)
@@ -61,15 +68,29 @@ Xcode Asset Catalog Slicing
 ![AssetSlicing](/Visuals/3-Xcode-AssetSlicing.png?raw=true)
 
 
+## Vector conversion - Screen shots
+
+Screen shot of Android and iOS devices - 
+![Screenshot](/Visuals/Screenshot-Portrait-1.png?raw=true)
+
+![Screenshot](/Visuals/Screenshot-Portrait-2.png?raw=true)
+
+FingerPrint vector xml from [material.io](https://material.io/resources/icons/?icon=fingerprint&style=baseline)
+
+![Screenshot](/Visuals/Screenshot-Portrait-3.png?raw=true)
+
+<shape> xml file comparison
+![Screenshot](/Visuals/Screenshot-Portrait-4.png?raw=true)
+
+-----
+
+
 ### File locations
 1) `Asset_Android` folder contains the Android source demo project
-2) `Asset_Xcode` folder contains the ported Xcode project
+2) `Asset_iOS` folder contains the ported Xcode project
+3) `Vector_Android` contains Android demo project for vector xml
+4) `Vector_iOS` contains Xcode demo project for vector files
 3) `Visuals` contains images
-
-
-## Statistics
-* Statements ported : 433
-* Duration          : 1 minutes
 
 
 ## License
