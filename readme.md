@@ -36,7 +36,7 @@ This sample project demonstrates conversion of following files -
 * color.xml
 * MipMap images
 * Vector xml
-* shape xml
+* Shape xml
 
 
 ## Assets conversion - Screen shots
@@ -62,10 +62,10 @@ Xcode Asset Catalog showing mapping of 1x, 2x and 3x assets
 
 -----
 
-Android Studio 9-PNG image assets
+Android Studio .9.PNG image assets editor
 ![Android9PNG](/Visuals/3-AndroidStudio-9png_Editor.png?raw=true)
 
-Xcode Asset Catalog with slicing information extracted from .9.png file
+Xcode AssetCatalog with slicing information extracted from .9.png file
 ![AssetSlicing](/Visuals/3-Xcode-AssetSlicing.png?raw=true)
 
 
@@ -74,6 +74,7 @@ Xcode Asset Catalog with slicing information extracted from .9.png file
 Screen shot of Android and iOS devices showing usage of various vector xml - 
 ![Vector-Screenshot-Portrait-1](/Visuals/Vector-Screenshot-Portrait-1.png?raw=true)
 
+Showing `CAShapeLayer` returned by `func heart_vector()` generated from `heart_vector.xml` android vector file 
 ![Vector-Screenshot-Portrait-2](/Visuals/Vector-Screenshot-Portrait-2.png?raw=true)
 
 UI with FingerPrint vector xml from [material.io](https://material.io/resources/icons/?icon=fingerprint&style=baseline)
