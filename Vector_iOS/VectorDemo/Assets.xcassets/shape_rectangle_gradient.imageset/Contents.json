@@ -1,0 +1,29 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "shape_rectangle_gradient.pdf",
+      "resizing" : {
+        "mode" : "9-part",
+        "center" : {
+          "mode" : "stretch",
+          "width" : 163,
+          "height" : 163
+        },
+        "cap-insets" : {
+          "bottom" : 7,
+          "top" : 7,
+          "right" : 7,
+          "left" : 7
+        }
+      }
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}

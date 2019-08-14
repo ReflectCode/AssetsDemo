@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="adE-h8-6ju">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Vector Demo-->
+        <scene sceneID="DNV-xg-evK">
+            <objects>
+                <navigationController title="Vector Demo" automaticallyAdjustsScrollViewInsets="NO" id="adE-h8-6ju" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ulm-4h-Ru3">
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" name="colorPrimary"/>
+                        <textAttributes key="titleTextAttributes"/>
+                        <textAttributes key="largeTitleTextAttributes"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cdE-g8-4Fu">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="Sj9-wJ-WBh" kind="relationship" relationship="rootViewController" id="eH8-ps-uy8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ccE-g8-4ju" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-400" y="600"/>
+        </scene>
+        <!--Vector Demo-->
+        <scene sceneID="p1X-aL-ilV">
+            <objects>
+                <viewController title="Vector Demo" id="Sj9-wJ-WBh" customClass="Main" customModule="VectorDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PRc-GW-8ch">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="1001" contentMode="scaleToFill" horizontalHuggingPriority="350" fixedFrame="YES" text="Vector and Shape Sample!" lineBreakMode="middleTruncation" numberOfLines="999" baselineAdjustment="alignBaselines" translatesAutoresizingMaskIntoConstraints="NO" id="Fyy-vS-HhM" userLabel="tvTitle">
+                                <rect key="frame" x="13" y="82" width="284.33333333333331" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.53333333329999999" colorSpace="calibratedRGB"/>
+                            </label>
+                            <imageView opaque="NO" clipsSubviews="YES" tag="1003" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0yl-9E-twR" userLabel="imgView">
+                                <rect key="frame" x="13" y="109" width="300" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="colorBlue"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="350" verticalHuggingPriority="350" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gVq-Xk-Kb5" userLabel="btnRef">
+                                <rect key="frame" x="321" y="148" width="43" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="colorGray"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="13" maxX="0.0" maxY="13"/>
+                                <state key="normal" title="Ref">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="1005" contentMode="scaleToFill" horizontalHuggingPriority="350" verticalHuggingPriority="350" fixedFrame="YES" text="Vector Sample" lineBreakMode="middleTruncation" numberOfLines="999" baselineAdjustment="alignBaselines" translatesAutoresizingMaskIntoConstraints="NO" id="CMe-fD-fHc" userLabel="tvTitle 1">
+                                <rect key="frame" x="13" y="417" width="95" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.53333333329999999" colorSpace="calibratedRGB"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zox-KF-PSA" userLabel="iv 1">
+                                <rect key="frame" x="13" y="437" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="colorGray"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="13" maxX="0.0" maxY="13"/>
+                                <state key="normal" title="" backgroundImage="ic_launcher_foreground">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="show_ic_launcher_foreground:" destination="Sj9-wJ-WBh" eventType="touchUpInside" id="Z5e-ZV-IJB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IWh-aL-MOP" userLabel="iv2">
+                                <rect key="frame" x="109" y="437" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="colorGray"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="13" maxX="0.0" maxY="13"/>
+                                <state key="normal" title="" backgroundImage="heart_vector">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="show_heart_vector:" destination="Sj9-wJ-WBh" eventType="touchUpInside" id="s0b-Pe-Jsf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2wZ-p3-BeA" userLabel="iv3">
+                                <rect key="frame" x="205" y="437" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="colorGray"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="13" maxX="0.0" maxY="13"/>
+                                <state key="normal" title="" backgroundImage="ic_launcher_background">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="show_ic_launcher_background:" destination="Sj9-wJ-WBh" eventType="touchUpInside" id="ofn-hI-0qV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9IQ-Qm-GzR" userLabel="iv4">
+                                <rect key="frame" x="301" y="437" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="colorGray"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="13" maxX="0.0" maxY="13"/>
+                                <state key="normal" title="" backgroundImage="face">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="show_face:" destination="Sj9-wJ-WBh" eventType="touchUpInside" id="Vo6-Dy-ZhF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KoT-es-wZd" userLabel="iv 21">
+                                <rect key="frame" x="13" y="525" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="colorGray"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="13" maxX="0.0" maxY="13"/>
+                                <state key="normal" title="" backgroundImage="ic_3d_rotation_48px">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="show_ic_3d_rotation:" destination="Sj9-wJ-WBh" eventType="touchUpInside" id="8ju-Fo-P3H"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Urj-JI-meu" userLabel="iv 22">
+                                <rect key="frame" x="110" y="525" width="80" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="colorGray"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="13" maxX="0.0" maxY="13"/>
+                                <state key="normal" title="" backgroundImage="ic_fingerprint_48px">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="show_ic_fingerprint:" destination="Sj9-wJ-WBh" eventType="touchUpInside" id="SR0-yU-86R"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SMd-hj-XdR" userLabel="iv 23">
+                                <rect key="frame" x="208" y="525" width="79.999999999999972" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="colorGray"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="13" maxX="0.0" maxY="13"/>
+                                <state key="normal" title="" backgroundImage="ic_language_48px">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="show_ic_language:" destination="Sj9-wJ-WBh" eventType="touchUpInside" id="XIM-Bd-skP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cIE-3b-RDz" userLabel="iv24">
+                                <rect key="frame" x="301" y="525" width="80" height="83"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="colorGray"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="13" maxX="0.0" maxY="13"/>
+                                <state key="normal" title="" backgroundImage="ic_baseline_error_outline_24px">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="show_ic_baseline_error:" destination="Sj9-wJ-WBh" eventType="touchUpInside" id="Psp-sg-VfI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wKW-o1-w5r" userLabel="btnSh 1">
+                                <rect key="frame" x="13" y="640" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="colorGray"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="13" maxX="0.0" maxY="13"/>
+                                <state key="normal" title="" backgroundImage="shape_rectangle_solid">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="show_shape_rectangle_solid:" destination="Sj9-wJ-WBh" eventType="touchUpInside" id="MXo-Kv-E8s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q4x-rG-BdT" userLabel="btnSh2">
+                                <rect key="frame" x="109" y="640" width="83" height="82"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="colorGray"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="13" maxX="0.0" maxY="13"/>
+                                <state key="normal" title="" backgroundImage="shape_rectangle_gradient">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="show_shape_rectangle_gradient:" destination="Sj9-wJ-WBh" eventType="touchUpInside" id="O4u-w6-PgE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nKc-Az-0gZ" userLabel="btnSh3">
+                                <rect key="frame" x="205" y="640" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="colorGray"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="13" maxX="0.0" maxY="13"/>
+                                <state key="normal" title="" backgroundImage="shape_oval">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="show_shape_oval:" destination="Sj9-wJ-WBh" eventType="touchUpInside" id="be2-or-p4x"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zec-zc-Kpz" userLabel="btnSh9">
+                                <rect key="frame" x="301" y="640" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="colorGray"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <inset key="contentEdgeInsets" minX="0.0" minY="13" maxX="0.0" maxY="13"/>
+                                <state key="normal" title="" backgroundImage="shape_selector_button_shape2">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected" title="" backgroundImage="shape_selector_button_shape1">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="show_shape_selector:" destination="Sj9-wJ-WBh" eventType="touchUpInside" id="e1L-nw-l25"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" tag="1016" contentMode="scaleToFill" horizontalHuggingPriority="350" verticalHuggingPriority="350" fixedFrame="YES" text="Shape Sample" lineBreakMode="middleTruncation" numberOfLines="999" baselineAdjustment="alignBaselines" translatesAutoresizingMaskIntoConstraints="NO" id="tfN-GY-oVk" userLabel="tvTitle 2">
+                                <rect key="frame" x="13" y="613" width="93" height="17"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.53333333329999999" colorSpace="calibratedRGB"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="RxR-4u-87j"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Vector Demo" id="nHV-ze-SnI"/>
+                    <connections>
+                        <outlet property="imgView" destination="0yl-9E-twR" id="6ow-wr-pWd"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="47u-MA-v8K" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="392.75362318840581" y="600"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="face" width="75" height="75"/>
+        <image name="heart_vector" width="75" height="75"/>
+        <image name="ic_3d_rotation_48px" width="36" height="36"/>
+        <image name="ic_baseline_error_outline_24px" width="18" height="18"/>
+        <image name="ic_fingerprint_48px" width="36" height="36"/>
+        <image name="ic_language_48px" width="36" height="36"/>
+        <image name="ic_launcher_background" width="81" height="81"/>
+        <image name="ic_launcher_foreground" width="81" height="81"/>
+        <image name="shape_oval" width="122" height="122"/>
+        <image name="shape_rectangle_gradient" width="140" height="140"/>
+        <image name="shape_rectangle_solid" width="16" height="16"/>
+        <image name="shape_selector_button_shape1" width="11" height="11"/>
+        <image name="shape_selector_button_shape2" width="13" height="13"/>
+        <namedColor name="colorBlue">
+            <color red="0.66666666666666663" green="0.73333333333333328" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorGray">
+            <color red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="colorPrimary">
+            <color red="0.0" green="0.52156862745098043" blue="0.46666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
