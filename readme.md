@@ -20,11 +20,11 @@
 -----
 # ReflectCode Assets demo
 
-This repository contains the Android and iOS source code for projets used to demonstrate the Assets Transformation service from Refelect code.
+This repository contains the Android and iOS source code for projets used to demonstrate the Assets Transformation service from **RefelectCode**.
 Through this service the assets files in `\Android\res` are converted into asset catalog files for Xcode in `\AssetDemo\Assets.xcassets` folder.
 
 
-## Files included
+## Files transformed
 This sample project demonstrates conversion of following files - 
 * .png
 * .9.png
