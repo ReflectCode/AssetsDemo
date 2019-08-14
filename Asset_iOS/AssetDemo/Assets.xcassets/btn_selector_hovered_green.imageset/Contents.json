@@ -1,0 +1,35 @@
+{
+  "images" : [
+    {
+      "resizing" : {
+        "mode" : "9-part",
+        "center" : {
+          "mode" : "stretch",
+          "width" : 116,
+          "height" : 32
+        },
+        "cap-insets" : {
+          "bottom" : 3,
+          "top" : 5,
+          "right" : 4,
+          "left" : 5
+        }
+      },
+      "idiom" : "universal",
+      "filename" : "btn_selector_hovered_green@1x.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

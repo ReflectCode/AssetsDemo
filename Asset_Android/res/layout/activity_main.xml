@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Asset Demo"
+        android:textSize="14sp"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_margin="0dp"
+        android:text="Button Selector Style-1"
+        android:background="@drawable/button_selector"
+        style="@style/ButtonTextStyle1"
+        android:textColor="@color/colorAccent"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_margin="0dp"
+        android:text="Button Selector Style-2"
+        android:background="@drawable/button_selector"
+        style="@style/ButtonTextStyle2" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button 9.png NoPadding"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/btn_selector_focused_blue"
+        >
+    </Button>
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button 9.png + Padding"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/btn_selector_focused_blue"
+        android:paddingTop="20dp"
+        android:paddingBottom="0dp"
+        android:paddingStart="45dp"
+        android:paddingEnd="45dp">
+    </Button>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:text="9.png"
+            android:background="@drawable/btn_selector_hovered_green"
+            style="@style/ButtonTextStyle1">
+        </Button>
+
+        <Button
+            android:id="@+id/dropdown"
+            android:layout_width="wrap_content"
+            android:text="DN"
+            android:background="@drawable/btn_dropdown_normal"
+            style="@style/ButtonTextStyle1">
+        </Button>
+
+        <Button
+            android:id="@+id/dropdown2"
+            android:layout_width="wrap_content"
+            android:text="Drop Down"
+            android:background="@drawable/btn_dropdown_pressed"
+            style="@style/ButtonTextStyle1">
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text=" Home...  "
+            android:textSize="20dp"
+            android:drawableStart="@drawable/ic_home_black_24dp"
+            android:background="@drawable/btn_default_small_normal"
+            />
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Setting"
+            android:textSize="20dp"
+            android:drawableEnd="@drawable/ic_settings_black_24dp"
+            android:background="@drawable/btn_default_small_pressed"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AA"
+            android:background="@drawable/btn_default_normal_disable_focused"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AAAA"
+            android:background="@drawable/btn_default_normal_disable_focused"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AAAAAA"
+            android:background="@drawable/btn_default_normal_disable_focused"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AAAAAAAA"
+            android:background="@drawable/btn_default_normal_disable_focused"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BB"
+            android:textSize="15sp"
+            android:background="@drawable/btn_default_small_normal_disable_focused"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BB"
+            android:textSize="55sp"
+            android:background="@drawable/btn_default_small_normal_disable_focused"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BB"
+            android:textSize="75sp"
+            android:background="@drawable/btn_default_small_normal_disable_focused"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BB"
+            android:textSize="75sp"
+            android:background="@drawable/btn_dropdown_disabled_focused"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BB"
+            android:textSize="55sp"
+            android:background="@drawable/btn_dropdown_disabled_focused"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BB"
+            android:textSize="15sp"
+            android:background="@drawable/btn_dropdown_disabled_focused"
+            />
+    </LinearLayout>
+</LinearLayout>

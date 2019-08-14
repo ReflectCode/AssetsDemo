@@ -1,0 +1,35 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "resizing" : {
+        "mode" : "9-part",
+        "center" : {
+          "mode" : "stretch",
+          "width" : 15,
+          "height" : 50
+        },
+        "cap-insets" : {
+          "bottom" : 13,
+          "top" : 9,
+          "right" : 10,
+          "left" : 11
+        }
+      },
+      "idiom" : "universal",
+      "filename" : "btn_default_normal_disable_focused@2x.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}
