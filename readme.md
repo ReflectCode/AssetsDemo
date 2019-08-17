@@ -61,6 +61,10 @@ This sample project demonstrates conversion of following files -
 | Vector xml | PDF file : stm = count of "android:" attribute in source xml + 10 stm for 'Contents.json' <br> Swift code = LOC of Swift code generated for the file  |
   
 
+### Statement Estimation for few vector files from demo project
+![Estimate](/Visuals/Vector_image_estimation.png?raw=true)
+
+-----
 
 ## Assets conversion - Screen shots
 
