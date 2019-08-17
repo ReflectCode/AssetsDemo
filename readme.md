@@ -39,6 +39,29 @@ This sample project demonstrates conversion of following files -
 * Shape xml
 
 
+
+## Dev Notes
+|File Type | Location | Usage |
+|-------------------------|-------------------------|-------------------------|
+|.png, .9.png, color and MipMap | Asset Catalog | In storyboard - Directly accessed in attribute inspector pane <br> In code - Use `UIImage(named: "MyImage")`|
+|Vector / Shape xml | Asset Catalog | In storyboard - Directly accessed in attribute inspector pane <br> In code - Use `UIImage(named: "MyImage")`|
+|Vector or Shape xml | Swift code | In code - Use `imgView!.layer.addSublayer(VectorStore.ic_launcher_foreground(viewBounds: imgView!.bounds))`|
+
+
+
+## Statement Estimation
+
+|File Type | Estimate |
+|-------------------------|-------------------------|
+| png or .jpg | 5 stm for image + 10 stm for 'Contents.json' |
+| 9.png | 5 stm for image + 20 for 'Contents.json' with slicing data |
+| color.xml | 10 stm for each color value ".colorset" |
+| MipMap images | 5 stm for each .jpg or .png |
+| Shape xml | PDF file : stm = count of "android:" attribute in source xml + 10 stm for 'Contents.json' |
+| Vector xml | PDF file : stm = count of "android:" attribute in source xml + 10 stm for 'Contents.json' <br> Swift code = LOC of Swift code generated for the file  |
+  
+
+
 ## Assets conversion - Screen shots
 
 Screen shot of Android and iOS devices showing usage of various assets - 
@@ -57,7 +80,7 @@ Xcode Storyboard editor
 Android Studio image assets
 ![AndroidEditor](/Visuals/2-AndroidStudio-ImageAssets.png?raw=true)
 
-Xcode Asset Catalog showing mapping of 1x, 2x and 3x assets
+Xcode Asset Catalog showing mapping of 1x, 2x and 3x assets.
 ![AssetCatalog](/Visuals/2-Xcode-AssetCatalog.png?raw=true)
 
 -----
@@ -65,13 +88,14 @@ Xcode Asset Catalog showing mapping of 1x, 2x and 3x assets
 Android Studio .9.PNG image assets editor
 ![Android9PNG](/Visuals/3-AndroidStudio-9png_Editor.png?raw=true)
 
-Xcode AssetCatalog with slicing information extracted from .9.png file
+Xcode AssetCatalog with slicing information extracted from .9.png file 
+Estimation : 25 stm for each imageset in asset catalog
 ![AssetSlicing](/Visuals/3-Xcode-AssetSlicing.png?raw=true)
 
 
 ## Vector conversion - Screen shots
 
-Screen shot of Android and iOS devices showing usage of various vector xml - 
+Screen shot of Android and iOS devices showing usage of various vector xml 
 ![Vector-Screenshot-Portrait-1](/Visuals/Vector-Screenshot-Portrait-1.png?raw=true)
 
 Showing `CAShapeLayer` returned by `func heart_vector()` generated from `heart_vector.xml` android vector file 
