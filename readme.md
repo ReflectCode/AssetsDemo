@@ -37,7 +37,7 @@ This sample project demonstrates conversion of following files -
 * MipMap images
 * Vector xml
 * Shape xml
-
+* Anim xml
 
 
 ## Dev Notes
@@ -111,15 +111,26 @@ UI with FingerPrint vector xml from [material.io](https://material.io/resources/
 Shape xml file comparison
 ![Vector-Screenshot-Portrait-4](/Visuals/Vector-Screenshot-Portrait-4.png?raw=true)
 
+## Animation conversion - Screen shots
+Screen shot of Android and iOS devices for animation demo project 
+![Anim-Screenshot-Portrait-1](/Visuals/Anim-Screenshot-Portrait-1.png?raw=true)
+
+Screen recording of Android animation demo project 
+![Anim-ScreenRec-Android](/Visuals/Anim_ScreenRec_Android.gif?raw=true)
+
+Screen recording of iOS animation demo project 
+![Anim-ScreenRec-iOS](/Visuals/Anim_ScreenRec_iOS.gif?raw=true)
+
 -----
 
-
 ### File locations
-1) `Asset_Android` folder contains the Android source demo project
-2) `Asset_iOS` folder contains the ported Xcode project
-3) `Vector_Android` contains Android demo project for vector xml
-4) `Vector_iOS` contains Xcode demo project for vector files
-3) `Visuals` contains images
+1) `Anim_Android` contains the Android demo project for Animation
+2) `Anim_iOS` contains the iOS demo project for Animation
+3) `Asset_Android` contains the Android source demo project
+4) `Asset_iOS` contains the ported Xcode project
+5) `Vector_Android` contains Android demo project for vector xml
+6) `Vector_iOS` contains Xcode demo project for vector files
+7) `Visuals` contains images
 
 
 ## License
