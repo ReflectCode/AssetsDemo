@@ -117,7 +117,7 @@ Screen shot of Android and iOS devices for animation demo project
 
 | Android Screen Rec | iOS  Screen Rec | 
 |-------------------------|-------------------------|
-| ![Anim-ScreenRec-Android](/Visuals/Anim_ScreenRec_Android.gif?raw=true) | ![Anim-ScreenRec-iOS](/Visuals/Anim_ScreenRec_iOS.gif?raw=true) |
+| <img src="/Visuals/Anim_ScreenRec_Android.gif" alt="Anim-ScreenRec-Android" width="250"/> | <img src="/Visuals/Anim_ScreenRec_iOS.gif" alt="Anim-ScreenRec-iOS" width="250"/> |
 
 -----
 
