@@ -119,7 +119,7 @@ Screen shot of Android and iOS devices for animation demo project
 |-------------------------|-------------------------|
 | <img src="/Visuals/Anim_ScreenRec_Android.gif" alt="Anim-ScreenRec-Android" width="350"/> | <img src="/Visuals/Anim_ScreenRec_iOS.gif" alt="Anim-ScreenRec-iOS" width="350"/> |
 
-** Note :** the GIF files are not in sync, but animation in actual app are in sync and takes same duration
+**Note :** the GIF files are not in sync, but animation in actual app are in sync and takes same duration
 
 -----
 
