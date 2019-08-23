@@ -45,8 +45,8 @@ This sample project demonstrates conversion of following files -
 |-------------------------|-------------------------|-------------------------|
 |.png, .9.png, color and MipMap | Asset Catalog | In storyboard - Directly accessed in attribute inspector pane <br> In code - Use `UIImage(named: "MyImage")`|
 |Vector / Shape xml | Asset Catalog | In storyboard - Directly accessed in attribute inspector pane <br> In code - Use `UIImage(named: "MyImage")`|
-|Vector or Shape xml | Swift code | In code - Use `imgView!.layer.addSublayer(VectorStore.ic_launcher_foreground(viewBounds: imgView!.bounds))`|
-
+|Vector or Shape xml | VectorStore.swift | In code - Use `imgView!.layer.addSublayer(VectorStore.ic_launcher_foreground(viewBounds: imgView!.bounds))`|
+|Anim xml | RC_AnimationStore.swift | In code - Use `imgView?.layer.add( anim!, forKey: "bounse")`|
 
 
 ## Statement Estimation
@@ -59,7 +59,7 @@ This sample project demonstrates conversion of following files -
 | MipMap images | 5 stm for each .jpg or .png |
 | Shape xml | PDF file : stm = count of "android:" attribute in source xml + 10 stm for 'Contents.json' |
 | Vector xml | PDF file : stm = count of "android:" attribute in source xml + 10 stm for 'Contents.json' <br> Swift code = LOC of Swift code generated for the file  |
-  
+| Anim xml | Swift code = LOC of Swift code generated for the file  |  
 
 ### Statement Estimation for few vector files from demo project
 ![Estimate](/Visuals/Vector_image_estimation.png?raw=true)
