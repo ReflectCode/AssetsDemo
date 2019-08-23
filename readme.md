@@ -69,51 +69,51 @@ This sample project demonstrates conversion of following files -
 ## Assets conversion - Screen shots
 
 Screen shot of Android and iOS devices showing usage of various assets - 
-![Screenshot](/Visuals/Asset-Screenshot-Portrait-1.png?raw=true)
+<img src="/Visuals/Asset-Screenshot-Portrait-1.png" alt="Screenshot" width="600"/>
 
 -----
 
 Android Studio layout editor
-![AndroidEditor](/Visuals/1-AndroidStudio-LayoutEditor.png?raw=true)
+<img src="/Visuals/1-AndroidStudio-LayoutEditor.png" alt="XcodeEditor" width="600"/>
 
 Xcode Storyboard editor
-![XcodeEditor](/Visuals/1-Xcode-Storyboard.png?raw=true)
+<img src="/Visuals/1-Xcode-Storyboard.png" alt="XcodeEditor" width="600"/>
 
 -----
 
 Android Studio image assets
-![AndroidEditor](/Visuals/2-AndroidStudio-ImageAssets.png?raw=true)
+<img src="/Visuals/2-AndroidStudio-ImageAssets.png" alt="AndroidEditor" width="600"/>
 
 Xcode Asset Catalog showing mapping of 1x, 2x and 3x assets.
-![AssetCatalog](/Visuals/2-Xcode-AssetCatalog.png?raw=true)
+<img src="/Visuals/2-Xcode-AssetCatalog.png" alt="AssetCatalog" width="600"/>
 
 -----
 
 Android Studio .9.PNG image assets editor
-![Android9PNG](/Visuals/3-AndroidStudio-9png_Editor.png?raw=true)
+<img src="/Visuals/3-AndroidStudio-9png_Editor.png" alt="Android9PNG" width="600"/>
 
 Xcode AssetCatalog with slicing information extracted from .9.png file 
 Estimation : 25 stm for each imageset in asset catalog
-![AssetSlicing](/Visuals/3-Xcode-AssetSlicing.png?raw=true)
+<img src="/Visuals/3-Xcode-AssetSlicing.png" alt="AssetSlicing" width="600"/>
 
 
 ## Vector conversion - Screen shots
 
 Screen shot of Android and iOS devices showing usage of various vector xml 
-![Vector-Screenshot-Portrait-1](/Visuals/Vector-Screenshot-Portrait-1.png?raw=true)
+<img src="/Visuals/Vector-Screenshot-Portrait-1.png" alt="Vector-Screenshot-Portrait-1" width="600"/>
 
 Showing `CAShapeLayer` returned by `func heart_vector()` generated from `heart_vector.xml` android vector file 
-![Vector-Screenshot-Portrait-2](/Visuals/Vector-Screenshot-Portrait-2.png?raw=true)
+<img src="/Visuals/Vector-Screenshot-Portrait-2.png" alt="Vector-Screenshot-Portrait-2" width="600"/>
 
 UI with FingerPrint vector xml from [material.io](https://material.io/resources/icons/?icon=fingerprint&style=baseline)
-![Vector-Screenshot-Portrait-3](/Visuals/Vector-Screenshot-Portrait-3.png?raw=true)
+<img src="/Visuals/Vector-Screenshot-Portrait-3.png" alt="Vector-Screenshot-Portrait-3" width="600"/>
 
 Shape xml file comparison
-![Vector-Screenshot-Portrait-4](/Visuals/Vector-Screenshot-Portrait-4.png?raw=true)
+<img src="/Visuals/Vector-Screenshot-Portrait-4.png" alt="Vector-Screenshot-Portrait-4" width="600"/>
 
 ## Animation conversion - Screen shots
 Screen shot of Android and iOS devices for animation demo project 
-![Anim-Screenshot-Portrait-1](/Visuals/Anim-Screenshot-Portrait-1.png?raw=true)
+<img src="/Visuals/Anim-Screenshot-Portrait-1.png" alt="Anim-Screenshot-Portrait-1" width="600"/>
 
 | Android Screen Rec | iOS  Screen Rec | 
 |-------------------------|-------------------------|
