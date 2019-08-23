@@ -115,11 +115,9 @@ Shape xml file comparison
 Screen shot of Android and iOS devices for animation demo project 
 ![Anim-Screenshot-Portrait-1](/Visuals/Anim-Screenshot-Portrait-1.png?raw=true)
 
-Screen recording of Android animation demo project 
-![Anim-ScreenRec-Android](/Visuals/Anim_ScreenRec_Android.gif?raw=true)
-
-Screen recording of iOS animation demo project 
-![Anim-ScreenRec-iOS](/Visuals/Anim_ScreenRec_iOS.gif?raw=true)
+| Android Screen Rec | iOS  Screen Rec | 
+|-------------------------|-------------------------|
+| ![Anim-ScreenRec-Android](/Visuals/Anim_ScreenRec_Android.gif?raw=true) | ![Anim-ScreenRec-iOS](/Visuals/Anim_ScreenRec_iOS.gif?raw=true) |
 
 -----
 
